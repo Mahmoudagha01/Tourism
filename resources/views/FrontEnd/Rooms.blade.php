@@ -2,6 +2,11 @@
 @section('title')
 Apartments & Rooms
 @endsection
+@section('css')
+
+<link rel="stylesheet" href="{{asset('css/css/apartment&rooms.css')}}" />
+    
+@endsection
 
 @section('content')
  <!-- Start Of Carousel -->
@@ -61,48 +66,20 @@ Apartments & Rooms
     <div class="heading" style="margin-top: 100px;"><h2>Our Offers.</h2></div>
         
     <div class="blurcard">
-        <a class="Card">
-            <div class="imgBx" style="background-image: url(imgs/Photo1.jpg)"></div>
+     
+        @foreach ($rooms as $room)
+            
+       
+        <a class="Card" href="{{route('tourists.create')}}" >
+            <div class="imgBx" style="background-image: url('{{asset($room->image)}}')"></div>
             <div class="contentBx">
-                <h3>500EGP</h3>
-                <input type="button" value="Book Now">
+
+        <h3>{{$room->price}}</h3>
+                <input type="button" value="Book Now" >
             </div>
         </a>
-        <a class="Card">
-            <div class="imgBx" style="background-image: url(imgs/Photo2.jpg);"></div>
-            <div class="contentBx">
-                <h3>450EGP</h3>
-                <input type="button" value="Book Now">
-            </div>
-        </a>
-        <a class="Card">
-            <div class="imgBx" style="background-image: url(imgs/Photo3.jpg)"></div>
-            <div class="contentBx">
-                <h3>500EGP</h3>
-                <input type="button" value="Book Now">
-            </div>
-        </a>
-        <a class="Card">
-            <div class="imgBx" style="background-image: url(imgs/Photo4.jpg)"></div>
-            <div class="contentBx">
-                <h3>450EGP</h3>
-                <input type="button" value="Book Now">
-            </div>
-        </a>
-        <a class="Card">
-            <div class="imgBx" style="background-image: url(imgs/Photo5.jpg);"></div>
-            <div class="contentBx">
-                <h3>350EGP</h3>
-                <input type="button" value="Book Now">
-            </div>
-        </a>
-        <a class="Card">
-            <div class="imgBx" style="background-image: url(imgs/Photo6.jpg)"></div>
-            <div class="contentBx">
-                <h3>600EGP</h3>
-                <input type="button" value="Book Now">
-            </div>
-        </a>
+        @endforeach
+       
     </div>
 
     <div class="heading"><h2>Available Rooms.</h2></div>
@@ -190,6 +167,5 @@ Apartments & Rooms
                 <img id="righting" class="arrowright" src="imgs/Iconright.png" onclick="rights()">
             </div>
         </div>
-        <script src="{{asset('js/js/rooms.js')}}"></script>
-        <script src="{{asset('js/js/popper.min.js')}}"></script>
+       
 @endsection

@@ -7,12 +7,13 @@
     <title>@yield('title')</title>
 
     <link rel="stylesheet" href="{{asset('css/css/bootstrap.min.css')}}" />
-    <link rel="stylesheet" href="{{asset('css/css/home.css')}}" />
-    <link rel="stylesheet" href="{{asset('css/css/cairo.css')}}" />
-    <link rel="stylesheet" href="{{asset('css/css/apartment&rooms.css')}}" />
-    <script src="{{asset('js/js/bootstrap.min.js')}}"></script>
+  @yield("css")
+    
     
     <script src="{{asset('js/js/jquery-3.5.1.slim.min.js')}}"></script>
+    <script src="{{asset('js/js/popper.min.js')}}"></script>
+    <script src="{{asset('js/js/bootstrap.min.js')}}"></script>
+    <script src="{{asset('js/js/rooms.js')}}"></script>
   
    
   </head>
@@ -54,7 +55,7 @@
                 class="dropdown-menu"
                 aria-labelledby="navbarDropdownMenuLink"
               >
-                <li><a class="dropdown-item" href="#">Cairo</a></li>
+                <li><a class="dropdown-item" href="{{ url('cairo') }}">Cairo</a></li>
                 <li><a class="dropdown-item" href="#">Luxor</a></li>
                 <li>
                   <a class="dropdown-item" href="#">Mansoura</a>

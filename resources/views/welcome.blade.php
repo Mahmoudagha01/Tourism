@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Tourism
+                <a href="{{ url('/homepage') }}"> Tourism </a>
                 </div>
 
                 <div class="links">

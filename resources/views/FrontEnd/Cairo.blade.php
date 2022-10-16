@@ -2,6 +2,13 @@
 @section('title')
 Cairo
 @endsection
+
+@section('css')
+    <link rel="stylesheet" href="{{asset('css/css/cairo.css')}}" />
+    
+
+@endsection
+
 @section('content')
 <div class="citydetails container-md">
       <div class="galary">

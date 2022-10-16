@@ -13,7 +13,10 @@
                             {{ session('status') }}
                         </div>
                     @endif
-
+                    <a href="{{ route('cities.create') }}">Add New City</a>
+                     or
+                    <a href="{{ route('rooms.create') }}">Add New Room</a>
+                    <br>
                     You are logged in!
                 </div>
             </div>
