@@ -15,10 +15,10 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 
 A website built with [Laravel](https://laravel.com/) using the PHP programming language is a quick review Backend with laravel
 
-## About
+# About
 A tourism website to display tourist cities with the possibility of booking rooms
 
-### Screenshots
+# Screenshots
 
 <p float="center">
  <img Screenshot (98) src="https://user-images.githubusercontent.com/55716560/196050917-a7334f74-ff09-4a7c-8c72-76edefec5eb2.png" width="400" height="500"/>
@@ -26,6 +26,7 @@ A tourism website to display tourist cities with the possibility of booking room
 
 
 </p>
+# Dashboard
 <p float="center">
  <img Screenshot (98) src="https://user-images.githubusercontent.com/55716560/196052380-ddeb9fcc-f5b1-4c9b-aa20-8af853ec3ca1.png" width="600" height="260"/>
  <img Screenshot (100) src="https://user-images.githubusercontent.com/55716560/196052382-5e02f690-4241-457d-8907-4abe4880dd21.png" width="600" height="260"/>
