@@ -23,7 +23,7 @@ A tourism website to display tourist cities with the possibility of booking room
 <p float="center">
  <img Screenshot (98) src="https://user-images.githubusercontent.com/55716560/196050917-a7334f74-ff09-4a7c-8c72-76edefec5eb2.png" width="400" height="500"/>
  <img Screenshot (100) src="https://user-images.githubusercontent.com/55716560/196050966-f184326b-c309-4852-a0e2-665c1108e927.png" width="400" height="500"/>
-   <img Screenshot (100) src="https://user-images.githubusercontent.com/55716560/196053192-45b8b6fc-0f6a-4101-bb97-7573bfcfd2fa.png" width="400" height="500"/>
+   <img Screenshot (100) src="https://user-images.githubusercontent.com/55716560/196053192-45b8b6fc-0f6a-4101-bb97-7573bfcfd2fa.png" width="300" height="400"/>
 </p>
 
 
