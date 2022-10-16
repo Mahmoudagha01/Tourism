@@ -34,7 +34,17 @@ A tourism website to display tourist cities with the possibility of booking room
  <img Screenshot (100) src="https://user-images.githubusercontent.com/55716560/196052805-314749a8-b689-491e-ba7b-64e9261affd1.png" width="600" height="260"/>
  <img Screenshot (100) src="https://user-images.githubusercontent.com/55716560/196052825-9d550d1f-1102-4912-80ca-3019e4d1b177.png" width="600" height="260"/>
  <img Screenshot (100) src="https://user-images.githubusercontent.com/55716560/196052852-a28281fc-a5e3-4258-ad03-d70f1ad98d60.png" width="600" height="260"/>
-
-
-
 </p>
+<h2 style="color:cyan">Installation</h2>
+<ul>
+    <li>Clone the Repo: <br> </li>
+    <li style=""> > git clone https://github.com/Mahmoudagha01/Tourism.git</li>
+    <li> > composer install</li>
+    <li> > cp .env.example .env</li>
+    <li> > Set up .env file</li>
+    <li> > php artisan key:generate</li>
+    <li> > php artisan storage:link</li>
+    <li> > php artisan migrate:fresh --seed</li>
+    <li> > php artisan serve</li>
+    <li> <a href="http://127.0.0.1:8000/">http://127.0.0.1:8000/</a> </li>
+    </ul>
